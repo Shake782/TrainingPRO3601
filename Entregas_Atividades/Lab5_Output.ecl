@@ -1,4 +1,4 @@
 ﻿IMPORT $;
 
-OUTPUT($.File_crime_optimized.File,NAMED('Optimized_data'));
-COUNT($.File_crime_optimized.File);
+OUTPUT($.Lab5_File_crime_optimized.File,NAMED('Optimized_data'));
+COUNT($.Lab5_File_crime_optimized.File);

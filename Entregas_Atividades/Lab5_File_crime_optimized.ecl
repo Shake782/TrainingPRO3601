@@ -1,4 +1,4 @@
-﻿EXPORT File_crime_optimized := MODULE
+﻿EXPORT Lab5_File_crime_optimized := MODULE
   EXPORT Layout := RECORD
     UNSIGNED4 id;
     STRING9 case_number;
@@ -23,5 +23,5 @@
     REAL8 longitude;
     STRING29 location;
   END;
-  EXPORT File:=DATASET('~class::intro:bssa::crimes_-_2001_to_present.csv',Layout,CSV(heading(1)));
+  EXPORT File:=DATASET('~class::intro::bssa::crimes::crimes_-_2001_to_present.csv',Layout,CSV(heading(1)));
 END;

@@ -1,6 +1,6 @@
 ﻿Import $;
 
-crimes := $.File_crime_optimized.File;
+crimes := $.Lab5_File_crime_optimized.File;
 registros_2010to2020 := crimes(year >= 2010 AND year <= 2020);
 
 

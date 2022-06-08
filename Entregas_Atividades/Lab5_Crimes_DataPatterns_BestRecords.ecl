@@ -1,6 +1,6 @@
 ﻿IMPORT $,STD;
 
-Crimes := $.File_crime_raw.File;
+Crimes := $.Lab5_File_crime_raw.File;
 
 bestrecord := STD.DataPatterns.BestRecordStructure(Crimes);
 
